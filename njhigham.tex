@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+\usepackage{texnames}
+
+\usepackage{url}
+\usepackage{color}
+\usepackage{graphicx}
+
+\definecolor{hotpink}{rgb}{0.9,0,0.5}
+
+\usepackage[colorlinks,urlcolor=blue,citecolor=hotpink,linkcolor=blue]{hyperref}
+
+\title{Bibliography \texttt{njhigham.bib}}
+\author{Nicholas J. Higham%
+        \thanks{%
+                School of Mathematics,
+                University of Manchester,
+                Manchester, M13 9PL, UK 
+                (\texttt{nick.higham@manchester.ac.uk},
+                \url{http://www.maths.manchester.ac.uk/\string~higham})
+               }
+}
+\date{}
+
+
+\begin{document}
+\maketitle
+Blue links are clickable links to DOIs.
+
+% This bibliography, and most of the papers dated 1990 onwards,
+% are available by anonymous FTP from the machine at Internet address
+% 130.88.16.10, in directory {\tt pub/higham}.
+
+\nocite{*}
+
+% \bibliographystyle{is-plain}
+\bibliographystyle{myplain2-doi}
+% \bibliographystyle{abbrv}
+\bibliography{strings,higham}
+
+\end{document}

@@ -1,0 +1,500 @@
+t%%% ====================================================================
+%%% BibTeX-file{
+%%%     author          = "Nicholas J. Higham",
+%%%     version         = "1.00",
+%%%     date            = "December 7, 2013",
+%%%     filename        = "strings.bib",
+%%%     address         = "Department of Mathematics
+%%%                        University of Manchester
+%%%                        Manchester M13 9PL
+%%%                        England",
+%%%     telephone       = "+44 (0)161 275 5800",
+%%%     FAX             = "+44 (0)161 275 5819",
+%%%     checksum        = ""
+%%%     email           = "higham at ma.man.ac.uk (Internet)",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "strings, N. J. Higham",
+%%%     supported       = "yes",
+%%%     docstring       = "String definitions for BibTeX."
+%%%     }
+%%% ====================================================================
+%%% The URL (Uniform Resource Locator) of this file is
+%%%
+%%%   URL = "ftp://ftp.ma.man.ac.uk/pub/higham/strings.bib"
+
+@PREAMBLE{"\def\noopsort#1{}"
+# "\def\l{\char32l}"
+# "\def\v#1{{\accent20 #1}} \let\^^_=\v"
+# "\def\hbk{hardback}"
+# "\def\pbk{paperback}"
+}
+% # "\def\c{\protect\pc}"
+% # "\input bibnames.sty "
+% # "\input path.sty "
+old: PREAMBLE{ "\newcommand{\noopsort}[1]{}" - causes warnings with chapterbib.
+
+%=======================================================================
+% Journal abbreviations:
+
+@String{j-ACM                   = "J. Assoc. Comput. Mach."}
+@String{j-Adv-Comp-Math         = "Adv. in Comput. Math."}
+@String{j-Adv-Math              = "Adv. Math."}
+@String{j-AHC                   = "Annals of the History of Computing"}
+@String{j-AJM                   = "Amer. J. Math."}
+@String{j-AMM                   = "Amer. Math. Monthly"}
+@String{j-AMS-Trans             = "Trans. Amer. Math. Soc."}
+@String{j-AMS-Translations      = "Amer. Math. Soc. Transl."}
+@String{j-AN                    = "Acta Numerica"}
+@String{j-ANN-MATH2             = "Ann. of Math. $(2)$"}
+@String{j-ANN-NUM-MATH          = "Ann. Numer. Math."}
+@String{j-ANN-STAT              = "Ann. Statist."}
+@String{j-APP-MATH-COMP         = "Appl. Math. Comput."}
+@String{j-APP-MATH-LETT         = "Appl. Math. Lett."}
+@String{j-APP-NUM-MATH          = "Appl. Numer. Math."}
+@String{j-APPROX                = "J. Approx. Theory"}
+@String{j-ASA                   = "J. Amer. Statist. Assoc."}
+@String{j-AS                    = "Amer. Statist."}
+@String{j-ARMA                  = "Arch. Rational Mech. Anal."}
+
+@string{j-BAMS                  = "Bull. Amer. Math. Soc."}
+@String{j-BIT                   = "BIT"}
+@String{j-BMFRS                 = "Biographical Memoirs of Fellows of the
+                                   Royal Society"}
+
+@String{j-CACM                  = "Comm. ACM"}
+@String{j-Calcolo               = "Calcolo"}
+@String{j-CMJ                   = "College Mathematics Journal"}
+@String{j-COMM-MATH-PHYS        = "Commun. Math. Phys."}
+@String{j-COMPA                 = "Comm. Pure Appl. Math."}
+@String{j-COMP-MATH-APPL        = "Computers Math. Applic."}
+@String{j-COMPUT-GRAPH-STAT     = "J. Comput. Graph. Statist."}
+@String{j-COMPUTING             = "Computing"}
+@String{j-COMP-J                = "Comput. J."}
+@String{j-CPC                   = "Comput. Phys. Comm."}
+@String{j-COA                   = "Comput. Optim. Appl."}
+@String{j-CSDA                  = "Comput. Statist. Data Anal."}
+@String{j-CSE                   = "Computing in Science and Engineering"}
+
+@String{j-EESD                  = "Earthquake Engrg. Struct. Dyn."}
+@String{j-EL                    = "Electronics Letters"}
+@String{j-ELA                   = "Electron. J. Linear Algebra"}
+% String{j-ELA                   = "The Electronic Journal of Linear Algebra"}
+@String{j-ETNA                  = "Electron. Trans. Numer. Anal."}
+
+@String{j-FOCM                  = "Found. Comput. Math."}
+
+@String{j-IEEE-AC               = "IEEE Trans. Automat. Control"}
+@String{j-IEEE-AHC              = "IEEE Annals of the History of Computing"}
+@String{j-IEEE-ASSP             = "IEEE Trans. Acoust., Speech, Signal
+                                   Processing"}
+@String{j-IEEE-C                = "IEEE Trans. Comput."}
+@String{j-IEEE-MG               = "IEEE Trans. Magnetics"}
+@String{j-IEEE-PC               = "IEEE Trans. Prof. Commun."}
+@String{j-IEEE-SE               = "IEEE Trans. Software Engrg."}
+@String{j-IEEE-SP               = "IEEE Trans. Signal Processing"}
+
+@String{j-IMA-BULL              = "IMA Bulletin"}
+@String{j-IMAJNA                = "IMA J. Numer. Anal."}
+@String{j-INFPL                 = "Inform. Process. Lett."}
+@String{j-IJC                   = "Internat. J. Control"}
+@String{j-IJHPCA                = "Int. J. High Performance Computing
+                                   Applications"}
+@String{j-IJNME                 = "Internat. J. Numer. Methods Eng."}
+@String{j-IJSA                  = "Internat. J. Supercomputer Appl."}
+@String{j-INTEL-TECH-J          = "Intel Technology Journal"}
+
+@String{j-JAMS                  = "J. Amer. Math. Soc."}
+@String{j-JCP                   = "J. Comp. Phys."}
+@String{j-JDIFE                 = "J. Differential Equations"}
+@String{j-JIMA                  = "J. Inst. Maths. Applics."}
+@String{j-JCM                   = "J. Comput. Math."}
+@String{j-JCAM                  = "J. Comput. Appl. Math."}
+@String{j-JCOMP-PHYS            = "J. Comput. Phys."}
+@String{j-JMAA                  = "J. Math. Anal. and Appl."}
+@String{j-JMP                   =  "J. Math. Phys."}
+@String{j-JNLAA                 = "Journal of Numerical Linear Algebra with
+                                   Applications"}
+@String{j-JOTA                  = "J. Optimization Theory and Applications"}
+@String{j-JROYS                 = "J. Roy. Statist. Soc. Ser. A"}
+@String{j-JROYSB                = "J. Roy. Statist. Soc. Ser. B"}
+@String{j-JROYSC                = "J. Roy. Statist. Soc. Ser. C (Applied Statistics)"}
+@String{j-JROYSD                = "J. Roy. Statist. Soc. Ser. D (The Statistician)"}
+@String{j-JSC                   = "J. Sci. Comput."}
+@String{j-JSV                   = "Journal of Sound and Vibration"}
+@String{j-JUCS                  = "Journal of Universal Computer Science"}
+
+@String{j-LAA                   = "Linear Algebra Appl."}
+@String{j-LMA                   = "Linear and Multilinear Algebra"}
+@String{j-LMS                   = "J. London Math. Soc."}
+
+@String{j-MATH-COMP             = "Math. Comp."}
+@String{j-MATH-COMP-SIM         = "Math. Comput. Simulation"}
+@String{j-MATH-GAZ              = "Math. Gaz."}
+% String{j-MATH-GAZ              = "Mathematical Gazette"}
+@String{j-MATH-INTELL           = "The Mathematical Intelligencer"}
+@String{j-MATH-MAG              = "Math. Mag."}
+@String{j-MATH-PROG             = "Math. Programming"}
+@String{j-MATH-TODAY            = "Mathematics Today"}
+@String{j-MTAC                  = "Math. Tables Aids Comput."}
+
+@String{j-NAMS                  = "Notices Amer. Math. Soc."}
+@string{j-Nature                = "Nature"}
+@string{j-NUM-ALG               = "Numer. Algorithms"}
+@String{j-NFAO                  = "Numer. Funct. Anal. Optim."}
+% String{j-NFAO                  = "Numerical Functional Analysis and Optimization"}
+@String{j-NLAA                  = "Numer. Linear Algebra Appl."}
+% String{j-NLAA                  = "Numerical Linear Algebra with Applications"}
+@String{j-NOTRS                 = "Notes and Records Roy. Soc. London"}
+@string{j-NUM-MATH              = "Numer. Math."}
+
+@string{j-PAMM                  = "Proc. Appl. Math. Mech."}
+@string{j-PAR-COMP              = "Parallel Comput."}
+@string{j-PROC-AMS              = "Proc. Amer. Math. Soc."}
+@string{j-PROC-IEEE             = "Proc. IEEE"}
+@string{j-PROC-LMS              = "Proc. London Math. Soc."}
+@string{j-PSYCHO                = "Psychometrika"}
+
+@string{j-QJMAM                 = "Quart. J. Mech. Appl. Math."}
+
+@string{j-REE                   = "The Radio and Electronic Engineer"}
+
+@String{j-SIGNUM                = "ACM SIGNUM Newsletter"}
+@String{j-SIGSAM                = "ACM SIGSAM Bulletin"}
+
+@String{j-SCIENCE               = "Science"}
+
+@String{j-SIAM                  = "J. Soc. Indust. Appl. Math."}
+@String{j-SIAD                  = "SIAM J. Alg. Discrete Methods"}
+@String{j-SICOMP                = "SIAM J. Comput."}
+@String{j-SICOPT                = "SIAM J. Control Optim."}
+@String{j-SIDM                  = "SIAM J. Disc. Math."}
+@String{j-SIAM-NEWS             = "SIAM News"}
+@String{j-SIMA                  = "SIAM J. Math. Anal."}
+@String{j-SIAMA                 = "SIAM J. Appl. Math."}
+@String{j-SIMAX                 = "SIAM J. Matrix Anal. Appl."}
+@String{j-SINUM                 = "SIAM J. Numer. Anal."}
+@String{j-SIOPT                 = "SIAM J. Optim."}
+@String{j-SIREV                 = "SIAM Rev."}
+@String{j-SISC                  = "SIAM J. Sci. Comput."}
+@String{j-SISSC                 = "SIAM J. Sci. Statist. Comput."}
+
+@string{j-STAPL                 = "Statist. Probab. Lett."}
+@String{j-SCL                   = "Systems and Control Letters"}
+
+@String{j-TOMS                  = "ACM Trans. Math. Software"}
+@String{j-TPLS                  = "ACM Trans. Program. Lang. Syst."}
+
+@String{j-WIRES-CompStat        = "WIREs Comp. Stat."}
+
+@String{j-ZAMM                  = "Z. Angew. Math. Mech."}
+@String{j-ZAMP                  = "Z. Angew. Math. Phys."}
+
+%=======================================================================
+% Type abbreviations:
+
+@String{t-NAREP                 = "Numerical Analysis Report"}
+@String{t-MIMS-EPrint           = "{MIMS EPrint}"}
+
+%=======================================================================
+% Departments/Institutions and their addresses:
+
+@String{inst-ATT                = "AT\&T Bell Laboratories"}
+@String{inst-ATT:adr            = "Murray Hill, NJ, USA"}
+
+@String{inst-CS-Lucent          = "Computing Sciences Research Center,
+                                   Bell Laboratories"}
+@String{inst-CS-Lucent:adr      = "Murray Hill, NJ"}
+
+@String{inst-Bell               = "Bell Laboratories"}
+@String{inst-Belladr            = "Murray Hill, NJ, USA"}
+
+@String{inst-Berkeley-CS        = "Department of Computer Science,
+                                   University of California"}
+@String{inst-Berkeley-Math      = "Department of Mathematics,
+                                   University of California"}
+@String{inst-Berkeley           = "University of California"}
+@String{inst-Berkeley:adr       = "Berkeley, CA, USA"}
+
+@String{inst-Berkeley-CPAM      = "Center for Pure and Applied Mathematics,
+                                   University of California"}
+@String{inst-Berkeley-CPAM:adr  = "Berkeley, CA, USA"}
+
+@String{inst-U-Bremen-ZT      = "Zentrum f{\"u}r Technomathematik,
+                                 Universit{\"a}t Bremen"}
+@String{inst-U-Bremen-ZT:adr  = "Bremen, Germany"}
+
+@String{inst-CERFACS            = "CERFACS"}
+@String{inst-CERFACS:adr        = "Toulouse, France"}
+
+@String{inst-Cornell            = "Cornell University"}
+@String{inst-Cornell:adr        = "Ithaca, NY, USA"}
+
+@String{inst-DAMTP              = "Department of Applied Mathematics and
+                                   Theoretical Physics,
+                                   University of Cambridge"}
+@String{inst-DAMTP:adr          = "Cambridge, UK"}
+
+@String{inst-U-Dundee           = "Department of Mathematics and
+                                   Computer Science, University of Dundee"}
+@String{inst-U-Dundee:adr       = "Dundee, Scotland"}
+
+@STRING{inst-ENSEEIHT           = "Dept. Informatique et Maths Appls.,
+                                   ENSEEIHT-IRIT"}
+% L'Institut National Polytechnique De Toulouse,  D\'{e}partment Informatique N7 - IRIT} }
+@STRING{inst-ENSEEIHT:adr       = "31071 Toulouse Cedex, France"}
+
+@String{inst-HARWELL            = "{AERE} {Harwell} Laboratory"}
+% @String{inst-HARWELL:adr        = "Chilton, Oxon, England"}
+
+@String{inst-IAN                = "Istituto di Analisi Numerica del CNR"}
+@String{inst-IAN:adr            = "Pavia, Italy"}
+
+@String{inst-IMA                = "Institute for Mathematics and Its
+                                   Applications, University of Minnesota"}
+@String{inst-IMA:adr            = "Minneapolis, MN, USA"}
+
+@String{inst-IMA-UK             = "The Institute of Mathematics and Its
+                                   Applications"}
+@String{inst-IMA-UK:adr         = "Southend-On-Sea, Essex, UK"}
+
+@String{inst-CS-U-KY            = "Department of Mathematics,
+                                   University of Kentucky"}
+@String{inst-CS-U-KY:adr        = "Lexington, KY, USA"}
+
+@String{inst-MCCM               = "Manchester Centre for
+                                   Computational Mathematics"}
+@String{inst-MCCM:adr           = "Manchester, England"}
+%%% Numerical Analysis Reports: ISSN 1360-1725
+
+@String{inst-MCS-Argonne        = "Mathematics and Computer Science Division,
+                                   Argonne National Laboratory"}
+@String{inst-MCS-Argonne:adr    = "Argonne, IL, USA"}
+
+@String{inst-MIMS               = "Manchester Institute for Mathematical
+                                   Sciences, The University of Manchester"}
+@String{inst-MIMS:adr           = "UK"}
+
+@String{inst-NAG                = "NAG Ltd."}
+@String{inst-NAG:adr            = "Oxford, UK"}
+
+@String{inst-NPL                = "National Physical Laboratory"}
+@String{inst-NPL:adr            = "Teddington, UK"}
+
+@String{inst-ORNL               = "Oak Ridge National Laboratory"}
+@String{inst-ORNL:adr           = "Oak Ridge, TN, USA"}
+
+@String{inst-OUCL               = "Numerical Analysis Group,
+                                   Oxford University Computing Laboratory"}
+@String{inst-OUCL:adr           = "Oxford, UK"}
+
+@String{inst-TheU-Manchester    = "The University of Manchester"}
+@String{inst-U-Manchester      = "University of Manchester"}
+@String{inst-U-Manchester:adr  = "Manchester, England"}
+@String{inst-U-Manchester-UK:adr  = "Manchester, UK"}
+
+@String{inst-CS-U-MARYLAND      = "Department of Computer Science,
+                                   University of Maryland"}
+@String{inst-CS-U-MARYLAND:adr  = "College Park, MD, USA"}
+
+@String{inst-NASA-Ames          = "NASA Ames Research Center"}
+@String{inst-NASA-Ames:adr      = "Moffett Field, CA, USA"}
+
+@String{inst-RICE-CAM           = "Department of Computational and Applied
+                                   Mathematics "}
+@String{inst-RICE-CAM:adr       = "Rice University, Houston, TX, USA"}
+
+@String{inst-CS-U-STANFORD      = "Department of Computer Science,
+                                   Stanford University"}
+@String{inst-OR-U-STANFORD      = "Department of Operations Research,
+                                   Stanford University"}
+@String{inst-U-STANFORD:adr     = "Stanford, CA, USA"}
+
+@String{inst-CS-U-Tenn          = "Department of Computer Science,
+                                   University of Tennessee"}
+@String{inst-CS-U-Tenn:adr      = "Knoxville, TN, USA"}
+
+@String{inst-Math-UCLA          = "Department of Mathematics,
+                                   University of California"}
+@String{inst-Math-UCLA:adr      = "Los Angeles, USA"}
+
+@String{inst-Math-UCSD          = "Department of Mathematics,
+                                   University of California"}
+@String{inst-Math-UCSD:adr      = "San Diego, USA"}
+
+@String{inst-CS-U-Umea          = "Institute of Information Processing,
+                                   University of Ume{\aa}"}
+@String{inst-CS-U-Umea:adr      = "Ume{\aa}, Sweden"}
+
+@String{inst-RAL              = "Atlas Centre, Rutherford Appleton Laboratory"}
+@String{inst-RAL:adr          = "Didcot, Oxon, UK"}
+
+@String{inst-Math-U-Strath    = "Department of Mathematics,
+                                 University of Strathclyde"}
+@String{inst-Math-U-Strath:adr= "Glasgow, Scotland"}
+
+@String{inst-TU-Chemnitz      = "Fak. f. Mathematik,
+                                 Technische Universit{\"a}t Chemnitz-Zwickau"}
+@String{inst-TU-Chemnitz:adr=   "Chemnitz, FRG"}
+
+@String{inst-M-Utrecht        = "Department of Mathematics, Utrecht University"}
+@String{inst-M-Utrecht:adr    = "Utrecht, Netherlands"}
+@String{inst-Utrecht          = "Utrecht University"}
+@String{inst-Utrecht:adr      = "Utrecht, Netherlands"}
+
+%=======================================================================
+% Publishers and their addresses:
+
+@String{pub-ACM                 = "ACM Press"}
+@String{pub-ACM:adr             = "New York"}
+
+@String{pub-AMS                 = "American Mathematical Society"}
+@String{pub-AMS:adr             = "Providence, RI, USA"}
+
+@String{pub-AP                  = "Academic Press"}
+@String{pub-AP:adr-NY           = "New York"}
+@String{pub-AP:adr-B            = "Boston, MA, USA"}
+@String{pub-AP:adr-S            = "San Diego, CA, USA"}
+@String{pub-AP:adr-L            = "London"}
+
+@String{pub-AW                  = "Ad{\-d}i{\-s}on-Wes{\-l}ey"}
+% @String{pub-AW:adr              = "Reading, Massachusetts"}
+@String{pub-AW:adr              = "Reading, MA, USA"}
+@String{pub-AW:adr2             = "Upper Saddle River, NJ, USA"}
+
+@String{pub-AWLongman          = "Addison Wesley Longman"}
+@String{pub-AWLongman:adr      = "Harlow, Essex, UK"}
+
+@String{pub-BH                  = "Birkh{\"{a}}user"}
+@String{pub-BH:adr              = "Boston, MA, USA"}
+@String{pub-BH:adr-Basel        = "Basel, Switzerland"}
+
+@String{pub-Blaisdell           = "Blaisdell"}
+@String{pub-Blaisdell:adr-MA    = "Waltham, MA, USA"}
+@String{pub-Blaisdell:adr-NY    = "New York"}
+
+@String{pub-BrooksCole          = "Brooks/Cole"}
+@String{pub-BrooksCole:adr      = "Pacific Grove, CA, USA"}
+
+@String{pub-CH                  = "Chapman and Hall"}
+@String{pub-CHCRC               = "Chapman and Hall/CRC"}
+@String{pub-CH:adr-L            = "London"}
+@String{pub-CH:adr-NY           = "New York"}
+
+@String{pub-CUP                 = "Cambridge University Press"}
+@String{pub-CUP:adr             = "Cambridge, UK"}
+
+@String{pub-CRC                 = "CRC Press"}
+@String{pub-CRC:adr             = "Boca Raton, FL, USA"}
+
+@String{pub-DCH                 = "D. C. Heath"}
+@String{pub-DCH:adr             = "Lexington, MA, USA"}
+
+@String{pub-Dover               = "Dover"}
+@String{pub-Dover:adr           = "New York"}
+
+@String{pub-EH                  = "Ellis Horwood"}
+@String{pub-EH:adr              = "New York"}
+
+@String{pub-ELS                 = "Elsevier"}
+@String{pub-ELSNH               = "Elsevier/North-Hol{\-}land"}
+@String{pub-ELS:adr             = "Amsterdam, The Netherlands"}
+
+@String{pub-Freeman             = "W. H. Freeman"}
+@String{pub-Freeman:adr         = "New York"}
+
+@String{pub-Gruyter             = "Walter de Gruyter"}
+@String{pub-Gruyter:adr         = "Berlin"}
+
+@String{pub-Harvard             = "Harvard University Press"}
+@String{pub-Harvard:adr         = "Cambridge, MA, USA"}
+
+@String{pub-HMSO                = "Her Majesty's Stationary Office"}
+@String{pub-HMSO:adr            = "London"}
+
+@String{pub-HRW                 = "Holt, Rinehart and Winston"}
+@String{pub-HRW:adr             = "New York"}
+
+@String{pub-IEC                 = "International Electrotechnical Commission"}
+@String{pub-IEC:adr             = "Geneva, Switzerland"}
+
+@String{pub-JH                  = "Johns Hopkins University Press"}
+@String{pub-JH:adr              = "Baltimore, MD, USA"}
+
+@String{pub-Kluwer              = "Kluwer Academic Publishers"}
+@String{pub-Kluwer:adr          = "Dordrecht, The Netherlands"}
+@String{pub-Kluwer:adr-NY       = "New York"}
+
+@String{pub-Longman-ST          = "Longman Scientific and Technical"}
+@String{pub-Longman-ST:adr      = "Essex, UK"}
+
+@String{pub-MacM                = "Macmillan"}
+@String{pub-MacM:adr            = "New York"}
+@String{pub-MacM:adr-L          = "London"}
+
+@String{pub-MAA                 = "Mathematical Association of America"}
+@String{pub-MAA:adr             = "Washington, D.C."}
+
+@String{pub-MD                  = "Marcel Dekker"}
+@String{pub-MD:adr              = "New York"}
+
+@String{pub-MH                  = "Mc{\-}Graw-Hill"}
+@String{pub-MH:adr              = "New York"}
+
+@String{pub-MIT                 = "The MIT Press"}
+@String{pub-MIT:adr             = "Cambridge, MA, USA"}
+
+@String{pub-NH                  = "North-Hol{\-}land"}
+@String{pub-NH:adr              = "Amsterdam, The Netherlands"}
+
+@String{pub-OUP                 = "Oxford University Press"}
+@String{pub-OUP:adr-NY          = "New York"}
+
+@String{pub-Penguin             = "Penguin"}
+@String{pub-Penguin:adr-H       = "Harmondsworth, UK"}
+@String{pub-Penguin:adr-L       = "London"}
+@String{pub-Penguin:adr-NY      = "New York"}
+
+@String{pub-Peters              = "A K Peters"}
+@String{pub-Peters:adr          = "Wellesley, MA, USA"}
+@String{pub-Peters:adr-N        = "Natick, MA, USA"}
+
+@String{pub-Plenum              = "Plenum Press"}
+@String{pub-Plenum:adr          = "New York"}
+
+@String{pub-PUP                 = "Princeton University Press"}
+@String{pub-PUP:adr             = "Princeton, NJ, USA"}
+
+@String{pub-PH                  = "Pren{\-}tice-Hall"}
+% @String{pub-PH:adr              = "Englewood Cliffs, NJ 07632, USA"}
+@String{pub-PH:adr              = "Englewood Cliffs, NJ, USA"}
+@String{pub-PH2:adr             = "Upper Saddle River, NJ, USA"}
+
+@String{pub-PHI                 = "Pren{\-}tice-Hall International"}
+@String{pub-PHI:adr             = "Englewood Cliffs, NJ, USA"}
+
+@String{pub-reidel              = "D. Reidel"}
+@String{pub-reidel:adr          = "Dordrecht, Holland"}
+
+@String{pub-SIAM                = "Society for Industrial and Applied
+                                   Mathematics"}
+@String{pub-SIAM:adr            = "Philadelphia, PA, USA"}
+
+@String{pub-Springer            = "Spring{\-}er-Ver{\-}lag"}
+@String{pub-Springer:adr-B      = "Berlin"}
+@String{pub-Springer:adr-L      = "London"}
+@String{pub-Springer:adr-NY     = "New York"}
+
+@String{pub-TELOS               = "TELOS division of Springer-Verlag"}
+
+@String{pub-TELOS:adr           = "New York, NY, USA"}
+
+@String{pub-Wellesley           = "Wellesley-Cambridge Press"}
+@String{pub-Wellesley:adr       = "Wellesley, MA, USA"}
+
+@String{pub-Wiley               = "Wiley"}
+@String{pub-Wiley:adr           = "New York"}
+@String{pub-Wiley:adr-C         = "Chichester, UK"}
+
+@String{pub-WS                  = "World Scientific"}
+@String{pub-WS:adr              = "Singapore"}
+%=======================================================================
