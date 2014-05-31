@@ -634,20 +634,6 @@ FUNCTION {format.in.ed.booktitle}
 %       if$
 %     }
 %   if$
-url empty$
-    {
-    doi empty$
-      {
-      eprint empty$
-        { }
-        { "\href{http://arxiv.org/abs/" eprint * "}{" * swap$ * "}" * }
-      if$
-      }
-      { "\href{http://dx.doi.org/" doi * "}{" * swap$ * "}" * }
-    if$
-    }
-    { "\href{" url * "}{" * swap$ * "}" * }
-  if$
 }
 
 FUNCTION {empty.misc.check}
