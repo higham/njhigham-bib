@@ -25,13 +25,15 @@
 
 @PREAMBLE{"\def\noopsort#1{}"
 # "\def\l{\char32l}"
-# "\def\v#1{{\accent20 #1}} \let\^^_=\v"
+# "\renewcommand\v[1]{\accent20 #1} \let\^^_=\v"
 # "\def\hbk{hardback}"
 # "\def\pbk{paperback}"
 }
 % # "\def\c{\protect\pc}"
 % # "\input bibnames.sty "
 % # "\input path.sty "
+% "\def\v#1{{\accent20 #1}} \let\^^_=\v"
+
 old: PREAMBLE{ "\newcommand{\noopsort}[1]{}" - causes warnings with chapterbib.
 
 %=======================================================================
@@ -125,6 +127,7 @@ old: PREAMBLE{ "\newcommand{\noopsort}[1]{}" - causes warnings with chapterbib.
 @String{j-JSC                   = "J. Sci. Comput."}
 @String{j-JSV                   = "Journal of Sound and Vibration"}
 @String{j-JUCS                  = "Journal of Universal Computer Science"}
+@String{j-JUQ                   = "SIAM/ASA Journal on Uncertainty Quantification"}
 
 @String{j-LAA                   = "Linear Algebra Appl."}
 @String{j-LMA                   = "Linear and Multilinear Algebra"}
