@@ -13,6 +13,10 @@ Contains nonstandard fields
 
 * `strings.bib`: String definitions use by `njhigham.bib`.
 
+* `njhigham_nostrings.bib`:   Main bibliography file with no strings
+(does not require strings.bib). Converted automatically using
+bibexport script.
+
 * `njhigham.tex`:  LaTeX file that creates a document with a bibliography
 containing all the entries in `njhigham.bib`.
 
