@@ -17,6 +17,10 @@ Contains nonstandard fields
 (does not require strings.bib). Converted automatically using
 bibexport script.
 
+* `njhigham_bibbase.bib`: Modified version of `njhigham_nostrings.bib` with
+minor changes to work optimally with BibBase for generating web page.  Not
+intended for other uses.
+
 * `njhigham.tex`:  LaTeX file that creates a document with a bibliography
 containing all the entries in `njhigham.bib`.
 
