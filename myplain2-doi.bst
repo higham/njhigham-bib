@@ -1,3 +1,6 @@
+% [2016-11-12 Sat 19:48] Updated doi to new recommended URL.
+% http://blog.crossref.org/2016/09/new-crossref-doi-display-guidelines.html
+
 % [2014-04-05 Sat 17:50] Added doi, url field handling as per
 % http://www.math.tamu.edu/~comech/tools/bibtex-doi-eprint/
 
@@ -374,7 +377,8 @@ FUNCTION {format.title}
         { "\href{http://arxiv.org/abs/" eprint * "}{" * swap$ * "}" * }
       if$
       }
-      { "\href{http://dx.doi.org/" doi * "}{" * swap$ * "}" * }
+%       { "\href{http://dx.doi.org/" doi * "}{" * swap$ * "}" * }
+      { "\href{https://doi.org/" doi * "}{" * swap$ * "}" * }
     if$
     }
     { "\href{" url * "}{" * swap$ * "}" * }
