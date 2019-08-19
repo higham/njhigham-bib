@@ -2,7 +2,7 @@
 %%% BibTeX-file{
 %%%     author          = "Nicholas J. Higham",
 %%%     version         = "1.00",
-%%%     date            = "June 13, 2019",
+%%%     date            = "August 5, 2019",
 %%%     filename        = "strings.bib",
 %%%     address         = "School of Mathematics
 %%%                        University of Manchester
@@ -24,11 +24,13 @@
 %%%    (or http://www.maths.manchester.ac.uk/~higham/papers).
 
 @PREAMBLE{"\def\noopsort#1{}"
-# "\def\l{\char32l}"
-# "\renewcommand\v[1]{\accent20 #1} \let\^^_=\v"
 # "\def\hbk{hardback}"
 # "\def\pbk{paperback}"
 }
+% Next two lines causing problems in HWMS3.
+% # "\def\l{\char32l}"
+% # "\renewcommand\v[1]{\accent20 #1} \let\^^_=\v"
+%
 % # "\def\c{\protect\pc}"
 % # "\input bibnames.sty "
 % # "\input path.sty "
@@ -513,6 +515,7 @@ old: PREAMBLE{ "\newcommand{\noopsort}[1]{}" - causes warnings with chapterbib.
 @String{pub-Springer:adr-C      = "Cham, Switzerland"}
 @String{pub-Springer:adr-L      = "London"}
 @String{pub-Springer:adr-NY     = "New York"}
+@String{pubadr-SpringerInt      = "Spring{\-}er, Cham"}
 
 @String{pub-TELOS               = "TELOS division of Springer-Verlag"}
 
