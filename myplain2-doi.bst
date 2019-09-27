@@ -1,3 +1,5 @@
+% 21-9-19: Moved editor forward in "in book" entries.
+
 % [2016-11-12 Sat 19:48] Updated doi to new recommended URL.
 % http://blog.crossref.org/2016/09/new-crossref-doi-display-guidelines.html
 
@@ -885,9 +887,9 @@ FUNCTION {incollection}
       format.number.series output
 %      format.chapter.pages output % Moved below: NJH
 %      new.sentence
+      format.edition output
       publisher "publisher" output.check
       address output
-      format.edition output
       format.date "year" output.check
       format.chapter.pages output
     }
