@@ -1,3 +1,4 @@
+% 31-10-21: Updated doi for books.
 % 21-9-19: Moved editor forward in "in book" entries.
 
 % [2016-11-12 Sat 19:48] Updated doi to new recommended URL.
@@ -379,7 +380,6 @@ FUNCTION {format.title}
         { "\href{http://arxiv.org/abs/" eprint * "}{" * swap$ * "}" * }
       if$
       }
-%       { "\href{http://dx.doi.org/" doi * "}{" * swap$ * "}" * }
       { "\href{https://doi.org/" doi * "}{" * swap$ * "}" * }
     if$
     }
@@ -462,7 +462,7 @@ url empty$
         { "\href{http://arxiv.org/abs/" eprint * "}{" * swap$ * "}" * }
       if$
       }
-      { "\href{http://dx.doi.org/" doi * "}{" * swap$ * "}" * }
+      { "\href{http://doi.org/" doi * "}{" * swap$ * "}" * }
     if$
     }
     { "\href{" url * "}{" * swap$ * "}" * }
